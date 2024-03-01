@@ -69,8 +69,8 @@ ssize_t gets_in(data_dt *data)
 		while (y < l)
 		{
 			if (chain_delim(data, buf, &y))
-					break;
-				y++;
+				break;
+			y++;
 		}
 		x = y + 1;
 		if (x >= l)
